@@ -1,0 +1,4 @@
+# openstack (Kilo stable) needs version <0.6
+# once they update requirement, we can push >=0.6 versions
+# check: https://github.com/openstack/requirements/blob/stable/kilo/global-requirements.txt
+watchurl=http://tarballs.openstack.org/python-ironicclient/python-ironicclient-(0\.5\..*).tar.gz
