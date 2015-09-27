@@ -44,3 +44,11 @@ docutils-python
 markupsafe-python
 Jinja2-python
 linecache2-python
+debtcollector-python
+wrapt-python
+monotonic-python
+funcsigs-python
+dogpile.cache-python
+appdirs-python
+dogpile.core-python
+dogpile.cache-python
