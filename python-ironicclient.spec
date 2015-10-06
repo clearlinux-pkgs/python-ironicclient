@@ -4,7 +4,7 @@
 #
 Name     : python-ironicclient
 Version  : 0.9.0
-Release  : 17
+Release  : 18
 URL      : http://tarballs.openstack.org/python-ironicclient/python-ironicclient-0.9.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-ironicclient/python-ironicclient-0.9.0.tar.gz
 Summary  : OpenStack Bare Metal Provisioning API Client Library
