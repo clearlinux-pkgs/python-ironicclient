@@ -52,3 +52,4 @@ dogpile.cache-python
 appdirs-python
 dogpile.core-python
 dogpile.cache-python
+requests-mock-python
