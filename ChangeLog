@@ -1,6 +1,33 @@
 CHANGES
 =======
 
+1.2.0
+-----
+
+* Remove leftover use of args.os_endpoint
+* Updated from global requirements
+* Add CLI support for RAID configuration
+* Updated from global requirements
+* Use keystoneauth instead of keystoneclient
+* Don't ignore failures when delete nodes
+* Use requests lib in HTTPClient
+* Add a JSON option to the client
+* Do not pass endpoint to constructor in OSC
+* Fix Resource.__eq__ mismatch semantics of object equal
+* Log SHA1 hash of X-Auth-Token value
+* Stop ignoring _ as builtin in pep8
+* Remove unused `anyjson`
+* Updated from global requirements
+* Add sanity tests for testing actions with Chassis
+* Add 'node-set-provision-state <node> clean'
+* continue to delete next node if failed with previous one
+* Updated from global requirements
+* Fix unit test 'Argument parse failed' error
+* Updated from global requirements
+* Replace HTTP 'magic numbers' with constants
+* Add CLI to list nodes using the same driver
+* Allow functional tests to work with Keystone v3
+
 1.1.0
 -----
 
