@@ -1,16 +1,65 @@
 CHANGES
 =======
 
-1.3.0
+1.4.0
 -----
 
+* Fix py35 unit tests
+* Grammatical fixes for cache expiry feature
+* Change position in assert arguments
 * Updated from global requirements
-* Update .gitreview for stable/mitaka
+* Add test for ironic driver-list command
+* Add env var for version cache timeout
+* Add invalid attribute names to exception
+* Simplify use of config_drive arg in osc
+* Add maintenance mode commands
+* Add provision state commands
+* Fix error returned by ironic --json node-validate
+* Negative tests for testing actions with Chassis
+* Updated from global requirements
+* Add test for 'node-show --field' command
+* Updated from global requirements
+* Tests for CLI help message
+* Move methods to utils.py
+* Updated from global requirements
+* Implementation of baremetal power state commands
+* Implementation of baremetal port create
+* Updated from global requirements
+* Add test for chassis-node-list
+* Fix quotation mark in docstring
+* Add test for 'port-show --field' command
+* Add sanity tests for testing actions with Port
+* Updated from global requirements
+* Catch RetriableConnectionFailures from KAuth and retry
+* Updated from global requirements
+* Bring OSC plugin inline with approved spec
+* Updated from global requirements
+* Use name randomizer from tempest
+* Updated from global requirements
+* Replace deprecated tempest-lib with tempest
+* Update the home-page with developer documentation
+* Trivial: ignore openstack/common in flake8 exclude list
+* Updated from global requirements
+* Fix typo in docstring of assertTableHeaders method
+* Fix for tox 'testenv:cover' command
+* Updated from global requirements
+* Updated from global requirements
+* Fix typos in docstrings and comments
+* Add test for 'chassis-show --field' command
+* Client addition for Active Node Creation verb adopt
+* Fix pep8 stderr warning regarding __all__ defined as list
+* Code style fix according to flake8
+* Set endpoint_override while doing session.request
+* Trivial: Fix incorrect comments in test_baremetal.py
+* Remove httplib2
+* Update reno for stable/mitaka
+* Updated from global requirements
 
 1.2.0
 -----
 
 * Remove leftover use of args.os_endpoint
+* Improve output of --json option
 * Updated from global requirements
 * Add CLI support for RAID configuration
 * Updated from global requirements
