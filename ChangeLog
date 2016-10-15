@@ -1,12 +1,80 @@
 CHANGES
 =======
 
+1.7.0
+-----
+
+* Correct a couple small grammar things in release notes
+* Clean up release notes for 1.7
+* Change 'P' to 'Queens' and add deprecation date
+* Add openstack baremetal driver commands
+* Add node validate OSC command
+* Add --chassis to 'openstack baremetal node list'
+* Sync tools/tox_install.sh
+* Updated from global requirements
+* Using assertIsNone() is preferred over assertEqual()
+* Add --node to 'openstack baremetal port list'
+* Adds node boot device & passthru OSC commands
+* Set/unset node's target RAID config via OSC command
+* Add baremetal port list command to OSC plugin
+* Updated from global requirements
+* Add baremetal port delete command to OSC plugin
+* Add openstack baremetal chassis commands
+* Adds 'openstack baremetal node console' commands
+* Use osc-lib instead of openstackclient
+* Use osc_lib instead of cliff
+* Update hacking test-requirement
+* Add docs target to tox.ini
+* Add --wait flag for provision actions and wait_for_provision_state function
+* Use constraints for all the things
+* Trivial: Fix doc string for class DeleteBaremetalNode
+* Add key_value_pairs_to_dict() method
+* Updated from global requirements
+* Add 'openstack baremetal node adopt' command
+* Update help shown for node-delete
+* Add baremetal port set command to OSC plugin
+* Fail with more meaningful error while creating client
+* Deprecate -l option for port creation in OSC plugin
+* Trivial: remove redundant parentheses
+* Remove unused variables assignments in OSC plugin unit tests
+* Fix i18n problems in shell.py
+* Add create command to ironic client
+* Updated from global requirements
+* Fix uuid to UUID in expected error messages
+* Trivial: Remove useless spaces
+* Verify JSON response of driver commands
+* Make shell main() specify return value in exit code
+* Add baremetal port unset command to OSC plugin
+
+1.6.0
+-----
+
+* Add support for node.resource_class
+* Fix coverage target
+* Add CLI tests to check JSON response body
+* Add baremetal port show command to OSC plugin
+* Add internal_info field to port
+* Remove unused LONG_FIELDS
+* Remove discover from test-requirements
+* Trivial: Fix wrong comment in power state test
+
+1.5.0
+-----
+
+* Updates supporting ironic-neutron integration
+* Add release note link for client release notes
+* Add Python 3.5 classifier and venv
+* Fix Quick-start example syntax
+* Negative tests for testing chassis-create command
+* Updated from global requirements
+
 1.4.0
 -----
 
 * Fix py35 unit tests
 * Grammatical fixes for cache expiry feature
 * Change position in assert arguments
+* Add test for ironic node-list command
 * Updated from global requirements
 * Add test for ironic driver-list command
 * Add env var for version cache timeout

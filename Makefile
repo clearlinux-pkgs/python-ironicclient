@@ -1,5 +1,5 @@
 PKG_NAME := python-ironicclient
-URL := http://tarballs.openstack.org/python-ironicclient/python-ironicclient-1.4.0.tar.gz
+URL := http://tarballs.openstack.org/python-ironicclient/python-ironicclient-1.7.0.tar.gz
 ARCHIVES :=
 
 include ../common/Makefile.common
