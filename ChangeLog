@@ -1,6 +1,119 @@
 CHANGES
 =======
 
+1.11.1
+------
+
+* Bump the LAST_KNOWN_API_VERSION to 29 in OSC
+* Update UPPER_CONSTRAINTS_FILE for stable/ocata
+* Update .gitreview for stable/ocata
+
+1.11.0
+------
+
+* Support --os-baremetal-api-version latest
+* Allow creating portgroups via create commands
+* Fix help message for the node-vif-attach command
+* Add --wait to OSC provisioning commands
+* Add --no-maintenance to OSC 'baremetal node list'
+* Follow up nits in the patch "ironic node-inject-nmi"
+* Updated from global requirements
+* Fix node-inject-nmi to pass an empty body
+* Typo fix: prefered => preferred
+* Add a new OSC command for Inject NMI
+
+1.10.0
+------
+
+* Support soft reboot and soft power off with timeout for OSC
+* Add soft reboot/poweroff power states
+* Change os_tenant_name to os_project_name in tests configuration script
+* Updated from global requirements
+* Replace yaml.load() with yaml.safe_load()
+* Add a new command "ironic node-inject-nmi"
+* Extend VIF attach commands
+
+1.9.0
+-----
+
+* Add interface attach/detach support
+* Update tox envs list
+* Fix multiple ports deletion
+* Raise on NodeManager get when invalid identifier provided
+* [trivial] Fix underline length under title in doc
+* [trivial] Fix of apostrophe in tox.ini
+* Simplify heading capitalization
+* Add mode and properties to portgroup OSC plugin
+* Add mode and properties to portgroup
+* Log warning if no property for (Un)Set commands
+* Pass argument as params in test_port_update
+* Add portgroup support to osc plugin
+* Simplify heading capitalization in shell's HelpFormatter
+* Describe possible exception in docstring
+* Fix API object representation in unittests
+* Add python API and CLI for port groups
+* Use oslo_serialization.base64 to follow OpenStack Python3
+* Updated from global requirements
+* Fix exception message creation in get_client()
+* Describe possible exception in docstring
+* Add more tests to node_shell
+* Updated from global requirements
+* Use identity api version 3 for OSC plugin tests
+* Strip endpoint version in OSC plugin
+* Update release note for fix to required args
+* Show team and repo badges on README
+* Add warning message for baremetal node set/unset commands
+* Allow import more than one func from i18n
+* List required arguments in '--help' message in Ironic Client
+* Replace six.iteritems() with .items()
+* Use uuidutils instead of uuid.uuid4()
+* Add tests for maintenance mode commands
+* Add tests for provision state commands
+* Add test for ironic port-list command
+* OSC add capability to remove node/chassis_uuid
+* Update to hacking 0.12.0 and use new checks
+* Updated from global requirements
+
+1.8.0
+-----
+
+* Fix python3 compatibility when HTTP Error are returned
+* Add basic tests for OSC plugin baremetal node commands
+* Updated from global requirements
+* Avoid string interpolation in logging calls
+* Updated from global requirements
+* Use function import_versioned_module from oslo.utils
+* Updated from global requirements
+* Fixed json response func tests
+* Fix display of chassis UUID field if empty
+* Extend OSC "node list" cmd to fetch nodes without instance UUID
+* [trivial] Remove unused variables assignment
+* Updated from global requirements
+* Add plug-in summary for osc doc
+* Updated from global requirements
+* Set OSC default baremetal api version as in ironicclient
+* Fix import of ironicclient and reformat docstring
+* Update .gitignore to ignore .idea of PyCharm
+* Enable release notes translation
+* Add docs for create command
+* Refactor provision state so all actions can use inherited take_action
+* If no resource, don't call Resource.to_dict()
+* Updated from global requirements
+* Add prefix "$" for command examples
+* TrivialFix Remove white space between print and ()
+* Use ConfigParser instead of SafeConfigParser in Python 3
+* Hide 'nodes' field from chassis OSC subcommands output
+* Hide 'ports' field from node OSC subcommands output
+* 'ironic create' handles file args
+* Adds --chassis-uuid to osc 'baremetal node set'
+* standardize release note page names and ordering
+* Document updating nested node attributes with CLI
+* OSC plugin support microversions 1.21 & 1.22
+* Update reno for stable/newton
+* Include jsonschema only once in requirements
+* use utils.key_value_pairs_to_dict()
+* Move duplicated info to new v1/utils.py
+
 1.7.0
 -----
 
@@ -8,6 +121,7 @@ CHANGES
 * Clean up release notes for 1.7
 * Change 'P' to 'Queens' and add deprecation date
 * Add openstack baremetal driver commands
+* Don't write python bytecode while testing
 * Add node validate OSC command
 * Add --chassis to 'openstack baremetal node list'
 * Sync tools/tox_install.sh
