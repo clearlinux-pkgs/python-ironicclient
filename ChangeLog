@@ -1,12 +1,34 @@
 CHANGES
 =======
 
-1.11.1
+1.12.0
 ------
 
-* Bump the LAST_KNOWN_API_VERSION to 29 in OSC
-* Update UPPER_CONSTRAINTS_FILE for stable/ocata
-* Update .gitreview for stable/ocata
+* Add missing 'autospec' statements to unit test mocks
+* Add space between items in exception message
+* Add DRIVER_RESOURCE to remove duplicated strings
+* Add tests for node list and show with specific fields
+* Add negative tests for baremetal node commands
+* Updated from global requirements
+* Updated from global requirements
+* Update test requirement
+* Updated from global requirements
+* Remove 'states' field from OSC CLI output
+* Updated from global requirements
+* Print pecan exceptions properly
+* Add basic tests for OSC plugin baremetal port commands
+* Add VIFs commands to help test
+* Handle log message interpolation by the logger
+* Support i18n for baremetal driver, portgroup cmds
+* Do not show chassis_uuid field when it is not specified
+* Add test to create a port with specific port group UUID
+* Fix cleanup of resources in OSC plugin functional tests
+* Fix cleanup of resources in functional tests
+* Change tenant to project in docs and unit tests
+* Support i18n for baremetal node cmds
+* Use same variable for --[no-]maintenance
+* Add args to CLI 'node-create' for selecting hardware interfaces
+* Update reno for stable/ocata
 
 1.11.0
 ------
@@ -14,12 +36,15 @@ CHANGES
 * Support --os-baremetal-api-version latest
 * Allow creating portgroups via create commands
 * Fix help message for the node-vif-attach command
+* Functional tests for port groups in ironicclient
 * Add --wait to OSC provisioning commands
 * Add --no-maintenance to OSC 'baremetal node list'
 * Follow up nits in the patch "ironic node-inject-nmi"
 * Updated from global requirements
 * Fix node-inject-nmi to pass an empty body
+* Add negative test-cases for openstack node create command
 * Typo fix: prefered => preferred
+* Fix ImportError when providing a meaningless API version
 * Add a new OSC command for Inject NMI
 
 1.10.0
@@ -28,6 +53,8 @@ CHANGES
 * Support soft reboot and soft power off with timeout for OSC
 * Add soft reboot/poweroff power states
 * Change os_tenant_name to os_project_name in tests configuration script
+* Support i18n for baremetal chassis cmds
+* Support i18n for baremetal port cmds
 * Updated from global requirements
 * Replace yaml.load() with yaml.safe_load()
 * Add a new command "ironic node-inject-nmi"
@@ -51,6 +78,7 @@ CHANGES
 * Simplify heading capitalization in shell's HelpFormatter
 * Describe possible exception in docstring
 * Fix API object representation in unittests
+* Verify JSON response of chassis commands
 * Add python API and CLI for port groups
 * Use oslo_serialization.base64 to follow OpenStack Python3
 * Updated from global requirements
@@ -66,6 +94,7 @@ CHANGES
 * Allow import more than one func from i18n
 * List required arguments in '--help' message in Ironic Client
 * Replace six.iteritems() with .items()
+* Add unit tests for OSC plugin
 * Use uuidutils instead of uuid.uuid4()
 * Add tests for maintenance mode commands
 * Add tests for provision state commands
