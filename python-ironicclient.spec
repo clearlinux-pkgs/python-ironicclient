@@ -6,7 +6,7 @@
 #
 Name     : python-ironicclient
 Version  : 1.12.0
-Release  : 35
+Release  : 36
 URL      : http://tarballs.openstack.org/python-ironicclient/python-ironicclient-1.12.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-ironicclient/python-ironicclient-1.12.0.tar.gz
 Source99 : http://tarballs.openstack.org/python-ironicclient/python-ironicclient-1.12.0.tar.gz.asc
